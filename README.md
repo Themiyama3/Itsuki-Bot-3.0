@@ -27,6 +27,8 @@ $ rm -rf global/session.json
 $ node .
 ```
 
+<button>hello</button>
+
 ## CONNECT
 
 Jika sudah ada session, isi di file [`session.json`](https://github.com/Hyzerr/Hyzer-MD-V4/blob/main/system/connect/session.json)<br />
