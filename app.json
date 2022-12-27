@@ -1,0 +1,47 @@
+{
+
+  "name": "MadushankaMD",
+
+  "description": "A whatsApp bot based on Baileys linrary with Multi Device support",
+
+  "repository": "https://github.com/Themiyama3/Itsuki-Bot-3.0",
+
+  "logo": "https://i.ibb.co/WvYHPbz/Screenshot-20220929-190202-Whats-App-Business.jpg",
+
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+
+  "buildpacks": [
+
+    {
+
+      "url": "heroku/nodejs"
+
+    },
+
+    {
+
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+
+    },
+
+    {
+
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+
+    }
+
+  ],
+
+   "formation": {
+
+        "worker": {
+
+            "quantity": 1,
+
+            "size": "eco"
+
+        }
+
+    }
+
+}
